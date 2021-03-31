@@ -1,10 +1,4 @@
 # nginx
-setup config for my self nginx
-
-
-
-# ubuntu-nginx-php
-
 This repository contains Dockerfile for self config nginx in ubuntu.
 
 ## Getting Started
@@ -20,6 +14,7 @@ docker exec -it web /bin/bash
 ### Usage
 ```
 docker run -itd --name web -p 8080:80 bananabb/nginx
+nginx -v
 ```
 
 ## License
