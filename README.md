@@ -2,7 +2,7 @@
 This repository contains Dockerfile for self config nginx in ubuntu.
 
 ## Getting Started
-These instructions will get you to build php service with nginx in your docker. See Installation for notes on how to build your ubuntu on a live system.
+These instructions will get you to build the nginx in your docker. See Installation for notes on how to build your ubuntu on a live system.
 
 ### Installation
 1. Install [Docker](https://www.docker.com/).
