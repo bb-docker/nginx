@@ -1,7 +1,7 @@
 FROM bananabb/ubuntu:20.10
 MAINTAINER BananaBb
 
-# Install nginx & packages & php
+# Install nginx
 RUN apt-get update \
  && apt-get install -y \
     nginx
