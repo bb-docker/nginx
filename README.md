@@ -10,6 +10,7 @@ These instructions will get you to build the nginx in your docker. See Installat
 
 ### Usage
 ```
+docker pull bananabb/nginx:latest
 docker run -itd --name nginx -p 8080:80 bananabb/nginx
 docker exec -it nginx /bin/bash
 nginx -v
