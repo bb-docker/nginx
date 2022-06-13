@@ -1,4 +1,4 @@
-FROM bananabb/ubuntu:20.10
+FROM bananabb/ubuntu:22.10
 MAINTAINER BananaBb
 
 # Install nginx
