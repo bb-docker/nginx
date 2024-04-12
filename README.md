@@ -16,6 +16,16 @@ docker exec -it nginx /bin/bash
 nginx -v
 ```
 
+### Setup Varnish for page speed improve (Optional)
+1. Change nginx to listen 8080
+2. Reload the Nginx `/etc/init.d/nginx reload`
+3. Update listening port from 6081 to 80 in `/etc/default/varnish` file
+4. Run command `sudo service varnish start` after setting completed
+5. Use command `curl -I http://localhost:8080/` to verify the Varnish
+
+
+
+
 ### Reminder
 Please use `/etc/init.d/nginx reload` to replace the nginx restart, after you Creating a Server Block in `/etc/nginx/sites-available` directory.
 
