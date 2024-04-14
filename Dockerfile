@@ -6,8 +6,7 @@ RUN apt-get update \
  && apt-get upgrade -y \
  && apt-get install -y \
     nginx \
-    varnish \
-    cron
+    varnish
 
 EXPOSE 80 443
 CMD ["nginx", "-g", "daemon off;"]
